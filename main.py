@@ -1,4 +1,3 @@
-
 #ESTO ES UN MENSAJE DE BIENVENIDA PARA EL USUARIO
 
 print("Bienvenidos a mi trivia de anime")
@@ -6,10 +5,14 @@ print("Pondremos a prueba tus conocimientos")
 
 nombre=input("ingresa tu nombre: ")
 #ESTAS SON LAS INSTRUCCIONES PARA JUGAR
+print('------------------------')
+print('------------------------')
 print("Hola ",nombre,"responde las siguientes preguntas escribiendo la letra de la alternativa y presionando 'Entrer' para enviar tu respuesta:\n")
 
-#PREGUNTAS
+#PREGUNTA 1
 
+print('------------------------')
+print('------------------------')
 print("1. ¿Cómo se llama el planeta de los sayayines?")
 print("a) Namekusei")
 print("b) Tierra")
@@ -30,11 +33,16 @@ while resp_1 not in ("a", "b", "c", "d"):
 
 if resp_1=='c':
   print('\nRespuesta Correta',nombre)
-  print("Toma tu loli de premio",nombre)
+  print("Toma tu su premio",nombre)
+  print('------------------------')
+  print('------------------------')
 else:
   print('Es incorrecto, pipipi Xd\n')
+  print('------------------------')
+  print('------------------------')
 
-
+#PREGUNTA 2
+  
 print("\n2. ¿Quién es la la mejor waifu?: ")
 print("a) Rem")
 print("b) Kurumi") #respuesta correcta
@@ -51,8 +59,14 @@ while resp_2 not in ("a", "b", "c", "d"):
 if resp_2=='b':
   print('\nRespuesta Correta',nombre)
   print('Tome su waifu como premio Xdd')
+  print('------------------------')
+  print('------------------------')
 else:
   print('Es incorrecto, pipipi Xd')
+  print('------------------------')
+  print('------------------------')
+
+#PREGUNTA 3
 
 print("\n3. ¿Cómo se llama el primer pokemon de Ash? ")
 print("a) Squirtle")
@@ -67,16 +81,12 @@ resp_3=input("\n ¿Cual es tu respuesta? (Escribe la letra): ")
 while resp_3 not in ("a", "b", "c", "d"):
   resp_3 = input("Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: ")
 
+
 if resp_3=='d':
   print('\nRespuesta Correta',nombre)
   print('Tome su pokemon y atrápalos a todos Xdd')
+  print('------------------------')
+  print('------------------------')
   print("\nGRACIAS POR PARTICIPAR EN MI TRIVIA",nombre)
 else:
   print('ponte a estudia mejor Xd')
-
-  
-
-
-
-    
-
