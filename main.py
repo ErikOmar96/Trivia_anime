@@ -1,4 +1,4 @@
-'''
+
 #ESTO ES UN MENSAJE DE BIENVENIDA PARA EL USUARIO
 
 print("Bienvenidos a mi trivia de anime")
@@ -73,77 +73,10 @@ if resp_3=='d':
   print("\nGRACIAS POR PARTICIPAR EN MI TRIVIA",nombre)
 else:
   print('ponte a estudia mejor Xd')
-'''
+
   
 
-#EJERCICIOS CONDICIONALES
 
-#NUMERO POSITIVO O NEGATIVO:
-'''
-num=int(input('Ingresa un número: '))
-
-if num>=0:
-  print('Es Positivo')
-else:
-  print('Es Negativo')
-'''
-
-#PROGRAMA QUE RECIBA UN NUMERO Y SE LO MULTIPLIQUE POR EL MISMO E IMPRIMIR SI EL RESULTADO ES POSITIVO O NEGATIVO
-
-'''
-num=int(input("Ingresa un número: "))
-multi=num*num
-
-if multi>=0:
-  print('Es Positivo')
-else:
-  print('Es Negativo')
-'''
-
-#INGRESA 2 NUMEROS E IMPRIME EL MAYOR NUMERO:
-'''
-num1=int(input('Ingresa un número: '))
-num2=int(input('Ingresa otro número: '))
-
-if num1>num2:
-  print("El primer número es mayor")
-else:
-  print("El segundo número es mayor")
-'''
-
-#Bucles
-#INGRESAR UNA PALABRA Y EL NÚMERO DE VECES QUE SE VA IMPRIMIR
-'''
-x=0
-p=input("ingresa una palabra: ")
-cont=int(input("ingresa la veces que se imprimirá: "))
-while x<cont:
-  print(p)
-  x+=1
-'''
-
-#IMPRIMIR LOS NUMEROS DEL 1 AL 10 Y CUANDO LLEGUE AL NÚMERO 3 IMPRIMIR "BOOM":
-'''
-i=0
-while i<=10:
-  if i==3:
-    print('BOOM!')
-  else:
-    print(i)
-  i+=1
-''' 
- 
-#ESCRIBIR EL NUMERO DE FILAS E IMPRIMIR UN TRIANGULO
-
-n=int(input("ingresa las filas: "))
-i=0 #contador
-while i<=n:
-  z=0
-  while z<i:
-    print("+", end="") #AL AÑARDIRLE end=" " al final no ocurrirá un ENTER
-    z+=1
-  print("") #AÑADIMOS ESTA LINEA
-  i+=1
 
     
 
